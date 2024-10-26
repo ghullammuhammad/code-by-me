@@ -1,0 +1,117 @@
+.home{
+    width: 150px;
+    position: relative;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+    cursor: pointer;
+    background-color: transparent;
+}
+body {
+    background-image: url('background\ image.png'); 
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.signup{
+    width: 190px;
+    left: 50px;
+    position: relative;
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 800;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+    cursor: pointer;
+    background-color: transparent;
+}
+.amsterdamlibrary {
+    width:550px;
+    top: 132px;
+    left:50px;
+    position: relative;
+    border-radius: 28px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 380px;
+    object-fit: cover;
+}
+.libraryinfo{
+    width: 1366px;
+    left: 650px;
+    bottom : 250px;
+    position: relative;
+    font-size: 35px;
+    line-height: 30%;
+    font-weight: 600;
+    font-family: Rokkitt;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+.services-and-facilities {
+    
+    position: relative;
+    font-size:30px;
+    font-family: Inter;
+    color:#fff;
+    line-height: 200%;
+    font-weight: 600;
+}
+
+.contactpara {
+width: 981px;
+position: relative;
+bottom: 100px;
+font-size: 40px;
+line-height: 80%;
+font-weight: 600;
+font-family: Rokkitt;
+color: #fff;
+text-align: left;
+display: inline-block;
+}
+.peopleinlibrary{
+   width: 1300px;
+    bottom: 0px;
+    position: relative;
+    border-radius: 28px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 1078px;
+    object-fit: cover; 
+}
+.p{
+    width: 874px;
+    bottom: 1100px;
+    left: 170px;
+    position: relative;
+    font-size: 128px;
+    line-height: 70%;
+    font-weight: 800; 
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    text-shadow: 5px 0 0 #fff, 0 5px 0 #fff, -5px 0 0 #fff, 0 -5px 0 #fff;
+                                          
+}
+.footer{
+    color: white;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: bold;
+    position: relative;
+    bottom: 500px;
+    line-height: 90px;
+    word-spacing:50px;
+
+    }

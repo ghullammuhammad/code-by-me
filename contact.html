@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/contact.css" />
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>CONTACT US</h1>
+    <form action="#" method="post">
+        <legend></legend>
+        <section class="container">
+            <label for="first-name" class="label">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label>Gender:</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        
+            <input type="radio" id="neutral" name="gender" value="neutral">
+            <label for="neutral">Neutral</label>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Submit</button>
+        </section>
+    </form>
+</body>
+</html>

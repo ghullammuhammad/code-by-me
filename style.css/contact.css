@@ -1,0 +1,16 @@
+body {
+    background-image: url('background-image.png'); 
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+h1{
+    color: white;
+    
+}
+form {
+    display: flex;
+}
+.container{
+    display: block;
+}
