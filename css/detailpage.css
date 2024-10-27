@@ -13,9 +13,10 @@
     background-color: transparent;
 }
 body {
-    background-image: url('background\ image.png'); 
+    background-image: url('../image/background\ image.png'); 
     background-size: cover;
     overflow-x: hidden;
+    
 
 }
 .signup{
@@ -46,8 +47,8 @@ body {
 }
 .libraryinfo{
     width: 1366px;
-    left: 650px;
-    bottom : 250px;
+    left: 620px;
+    bottom : 280px;
     position: relative;
     font-size: 35px;
     line-height: 30%;
@@ -56,6 +57,7 @@ body {
     color: #fff;
     text-align: left;
     display: inline-block;
+    text-indent: 10px;
 }
 .services-and-facilities {
     
@@ -65,6 +67,7 @@ body {
     color:#fff;
     line-height: 200%;
     font-weight: 600;
+    text-indent: 10px;
 }
 
 .contactpara {
@@ -92,7 +95,7 @@ display: inline-block;
 .p{
     width: 874px;
     bottom: 1100px;
-    left: 170px;
+    left: 50px;
     position: relative;
     font-size: 128px;
     line-height: 70%;
@@ -102,16 +105,55 @@ display: inline-block;
     text-align: center;
     display: inline-block;
     text-shadow: 5px 0 0 #fff, 0 5px 0 #fff, -5px 0 0 #fff, 0 -5px 0 #fff;
+    margin: 150px;
                                           
 }
 .footer{
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-family: Inter;
     font-weight: bold;
     position: relative;
-    bottom: 500px;
-    line-height: 90px;
-    word-spacing:50px;
-
+    bottom: 200px;
+    line-height: 50px;
+    word-spacing:0px;
     }
+    .footerleft{
+        color: white;
+        font-size:20px ;
+        font-family: Inter;
+        position: relative;
+        bottom: 411px;
+        left: 400px;
+        line-height: 50px;
+    }
+    /* Media Queries for Responsiveness */
+
+/* Smartphones <= 768px */
+@media (max-width: 768px) {
+    .home, .signup {
+        font-size: 24px; 
+    }
+    .amsterdamlibrary {
+        width: 70%; 
+        height: auto; 
+    }
+    .libraryinfo, .contactpara, .services-and-facilities {
+        font-size: 20px; 
+        width: 90%; 
+        margin: auto; 
+    }
+    .p {
+        font-size: 24px;
+        right:100px;
+    }
+    .peopleinlibrary {
+        width: 100%; 
+        height: auto; 
+    }
+    .footer, .footerleft {
+        font-size: 16px;
+        text-align: center; 
+    }
+}
+

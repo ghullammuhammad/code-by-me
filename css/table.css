@@ -28,7 +28,7 @@
     background-color: transparent;
 }
 body {
-    background-image: url('background\ image.png'); 
+    background-image: url('../image/background\ image.png'); 
     background-size: cover;
     overflow-x: hidden;
 
@@ -97,15 +97,48 @@ body {
         }
         .footer{
             color: white;
-            font-size: 40px;
+            font-size: 20px;
             font-family: Inter;
             font-weight: bold;
             position: relative;
             bottom: 40px;
-            line-height: 90px;
+            line-height: 50px;
             word-spacing:50px;
 
         }
+        .footerleft{
+            color: white;
+            font-size:20px ;
+            font-family: Inter;
+            font-weight: bold;
+            position: relative;
+            bottom: 255px;
+            left: 490px;
+            line-height: 50px;
+        }
+       
+@media (max-width: 768px) {
+    .home, .signup {
+        font-size: 30px;
+    }
+
+    .learngrowrepeat {
+        font-size: 80px; 
+    }
+
+    .styled-table {
+        font-size: 16px; 
+        
+    }
+
+    .paragraph {
+        font-size: 30px; 
+    }
+
+    .footer, .footerleft {
+        font-size: 16px; 
+    }
+}
         
         
 
